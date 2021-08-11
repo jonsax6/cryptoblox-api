@@ -2,11 +2,13 @@
 
 This application allows the user to login, see a market overview with crypto prices and create a portfolio of their cryptos. As a crypto asset holder, this is a tool that I would use often to track my own crypto assets and total portfolio value
 
-<!-- ## Important Links
+## Important Links
 
-- [Other Repo](www.link.com)
-- [Deployed API](www.link.com)
-- [Deployed Client](www.link.com) -->
+
+
+- [Client repo](https://github.com/jonsax6/chainvista-client)
+- [Deployed API](https://cryptoblox-api.herokuapp.com/)
+- [Deployed Client](https://jonsax6.github.io/chainvista-client/)
 
 ### User Stories
 
