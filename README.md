@@ -1,3 +1,6 @@
+![Logo](public/chainvista-logo.png)
+
+
 # ChainVista: A Crypto Folio App
 
 This application allows the user to login, see a market overview with crypto prices and create a portfolio of their cryptos. As a crypto asset holder, this is a tool that I would use often to track my own crypto assets and total portfolio value
