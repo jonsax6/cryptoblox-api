@@ -94,39 +94,6 @@ router.patch('/transactions/:id', requireToken, removeBlanks, (req, res, next) =
     .catch(next)
 })
 
-// use later for subdoc refactor:
-// CREATE
-// POST /portfolios
-// router.post('/transactions', requireToken, (req, res, next) => {
-// 	const transactionData = req.body.transaction
-// 	const portfolioId = transactionData.portfolioId
-// 	req.body.portfolio.owner = req.user.id
-// 	Portfolio.findById(portfolioId)
-// 		.then(handle404)
-// 		.then((portfolio) => {
-// 			portfolio.transactions.push(transactionData)
-// 			return portfolio.save()
-// 		})
-// 		.then((portfolio) => res.status(201).json({ portfolio }))
-// 		.catch(next)
-// })
-
-// use later for subdoc refactor:
-// UPDATE
-// PATCH /portfolios/5a7db6c74d55bc51bdf39793
-// router.patch('/transaction/:id', requireToken, removeBlanks, (req, res, next) => {
-// 		delete req.body.portfolio.owner
-// 		Portfolio.findById(req.params.id)
-// 			.then(handle404)
-// 			.then((portfolio) => {
-// 				requireOwnership(req, portfolio)
-// 				const transaction = portfolio.transactions.id(transactionId)
-// 				return portfolio.updateOne(req.body.portfolio)
-// 			})
-// 			.then(() => res.sendStatus(204))
-// 			.catch(next)
-// })
-
 // DESTROY
 // DELETE /examples/5a7db6c74d55bc51bdf39793
 router.delete('/transactions/:id', requireToken, (req, res, next) => {
