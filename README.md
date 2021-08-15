@@ -43,12 +43,12 @@ This application allows the user to login, see a market overview with crypto pri
 
 ## Images
 
+The app was planned using wireframe sketches and an entity relationship diagram (ERD):
+
 #### ERD:
 
 ![ChainVista - ERD](https://user-images.githubusercontent.com/68968739/129494199-5e7f4428-c8ce-45aa-9bca-ef06977b0320.png)
 #### Wireframes:
-
-The app was planned using wireframe sketches and an entity relationship diagram (ERD):
 
 ![ChainVista_Logged-out](https://user-images.githubusercontent.com/68968739/129494214-674376da-191c-47c0-9c90-60d4afde5980.png)
 
