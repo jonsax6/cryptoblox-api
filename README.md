@@ -1,5 +1,4 @@
-![Logo](public/chainvista-logo.png)
-
+![ChainVista-logo](https://user-images.githubusercontent.com/68968739/129494500-e033273f-3bdc-4ab5-9b2e-6038210aeb85.png)
 
 # ChainVista: A Crypto Folio App
 
